@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Courgette&family=Lobster&family=Oswald:wght@700&family=Rubik:wght@500&display=swap');
+.dashboard1 {
+    display: grid;
+    grid-template-columns: 20% 70%;
+    height: 100%;
+    width: 100%;
+    color: #003a65;
+}
+
+
+.header1 {
+    margin: 20px;
+    height: 80px;
+    width: 0%;
+    border-top: #dbe0e1 1px solid;
+    border-bottom: #b5bbbc 1px solid;
+    text-align: left;
+    padding: 20px;
+    font-size: 30px;
+    color: #003a65;
+}
+
+.sidebar1{
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 200;
+    color: #ccdae3;
+    background: #084d82;
+    width: 300px;
+    height: 688px;
+    font-size: large;
+}
+
+.sidebar1 > :hover{
+    background: #003a65;
+}
+
+.user1 {
+    height: 60px;
+}
+
+.user-icon1 {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    transform: translate(80px, 35%);
+}
+
+.user1 > label {
+    transform: translate(-80px, 50%);
+}
+
+.item1{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.margin1 {
+    margin-left: 15px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.item1 label {
+    cursor: pointer;
+    font-size: 17px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.content1 {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    gap: 10px;
+    height: 100%;
+}
+.materials1 {
+    margin-right :50px;
+    margin-top: 150px;
+    padding: 20px;
+    background: #003a65;
+    color: #eb8099;
+    border-radius: 15px;
+    height: 200px;
+    width: 200px;
+    font-size: 150%;
+    cursor: pointer;
+    box-shadow: 0 0px 10px rgba(132, 133, 137, 0.7);
+
+}
+
+.m11{
+   
+
+}
+.materials1:hover {
+    opacity: 0.8;
+}
+.materials1 label {
+    cursor: pointer;
+}
+.materials1 .number1 {
+    padding: 20px;
+    color: #fff;
+    cursor: pointer;
+}

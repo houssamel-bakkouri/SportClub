@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@700&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&family=Oswald:wght@700&family=Rubik:wght@500&display=swap');
+/* base styles */
+* {
+  font-family: 'Rubik';
+}
+
+
+.bell {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  transform: translateY(3%);
+  right: 150px;
+  background: #f5f7f8;
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid #d4d9db ;
+}
+
+@media screen and (max-width: 47rem) {
+  .bell {
+    display: none;
+  }
+}
+  
+
+
+.bell:hover {
+  background: #c3c7ca;
+  cursor: pointer;
+}
+
+.my-container {
+  margin: 0 auto;
+}
+.this-container {
+  margin: 100px;
+}
+
+.my-container-add{
+  width: 600px;  
+  margin-top: 50px;
+}
+
+.notif-container {
+  margin: 10px;
+  margin-left: 300px;
+  width: 800px;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  place-items: center;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.trash{
+  place-self: end;
+  height: 40px;
+  width: 40px;
+  background: #dee1e3;
+  border-radius: 50%;
+  padding: 7px;
+}
+
+.trash:hover {
+  background: #c3c7ca;
+  cursor: pointer;
+}
+
+.notif-container h1 {
+  place-self: start start;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.notif-container p {
+  place-self: start start;
+  font-size: 14px;
+}
+
+.logo {
+  margin-left: 50px;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Courgette', sans-serif; 
+  color: #c3c7ca;
+}
+
+.cont{
+  display: grid;
+  place-items: center;
+}
+
+.cont h1 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Oswald', sans-serif; 
+  color: #1768f4;
+  padding: 20px;
+}
+
+.membership {
+  margin: 0 auto;
+  width: 600px;
+  padding: 30px; 
+  
+}
+
+.membership-info {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /*grid-template-columns: 40% 10%;*/
+}
+
+
+.membership-info p {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Rubik', sans-serif; 
+  color: #1768f4;
+  place-self: center end;
+}
+.membership-info h2{
+  padding: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Rubik', sans-serif; 
+  color: #104db6;
+  place-self: start start;
+}
+.button {
+  width : 100%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  color : #fff;
+  font-family: 'Rubik'
+
+}
+
+.continue {
+  background: rgb(23, 104, 244);
+}
+
+.continue:hover {
+  background: #104db6;
+}
+
+.cancel {
+  background: #f41759;
+}
+
+.cancel:hover {
+  background: #d0021b;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

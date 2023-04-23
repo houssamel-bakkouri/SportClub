@@ -1,0 +1,67 @@
+
+.my-container-grids{
+    display: grid;
+    justify-items: center;
+    row-gap: 5px;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.schedule-container {
+    border-top-left-radius: 10px;
+    color: rgb(255, 255, 255);
+    margin: 0 5px;
+    display: grid;
+    grid-template-columns: repeat(8, 120px);
+    gap: 5px;
+    padding: 5px;
+}
+
+.schedule-container-large {
+    border-bottom-left-radius: 10px;
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(8, 120px);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.schedule-day {
+    background-color: #2155CD;
+    padding: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    row-gap: 10px;
+    column-gap: 2px;
+    font-size: 20px;
+}
+
+.schedule-time {
+    background-color: #2155CD;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    row-gap: 10px;
+    column-gap: 2px;
+    font-size: 20px;
+    line-height: 100px;
+    width: auto;
+}
+
+.true {
+    line-height: 100px;
+    background-color: rgb(46, 144, 237);
+    width: auto;
+
+}
+
+.false {
+    background-color: #6ca4e8;
+    width: auto;
+
+}
